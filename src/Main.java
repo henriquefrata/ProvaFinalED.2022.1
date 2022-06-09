@@ -1,4 +1,3 @@
-import static src.Util.VenderProduto;
 
 import javax.swing.JOptionPane;
 
@@ -23,7 +22,7 @@ public class Main {
 						Util.listarProdutos();
 						break;
                     case "4":
-                        RemoverProduto();
+                        //RemoverProduto();
                 	case "5":
 						exit = true;
 						break;
@@ -37,6 +36,7 @@ public class Main {
         }
         // inserir aqui mensagem de exibição da altura da arvore
         JOptionPane.showMessageDialog(null,"Aplicação finalizada!");
+        ArvoreBinaria.MensagemAltura(0);
     }
 
     public static String menu(){
